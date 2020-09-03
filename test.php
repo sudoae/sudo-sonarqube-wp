@@ -1,1 +1,5 @@
-Just for testing purpose
+<?php
+
+echo ("This site in under maintanance");
+
+?>
