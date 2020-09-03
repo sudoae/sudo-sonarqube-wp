@@ -1,6 +1,6 @@
 <?php
 
-echo "("wrong window");
+echo ("wrong window");
 
-?>
+??>
 
